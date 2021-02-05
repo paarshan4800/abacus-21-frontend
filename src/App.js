@@ -1,12 +1,12 @@
 import styles from "./App.module.css"
 import { BrowserRouter as Router, Switch, Route,Redirect } from 'react-router-dom'
 
-// Components
-import Homepage from "./components/Homepage/Homepage"
+// pages
+import Homepage from "./pages/Homepage/Homepage"
 import Footer from "./components/Footer/Footer"
-import AboutUs from "./components/About-Us/AboutUs"
-import Events from "./components/Events/Events"
-import Workshops from './components/Workshops/Workshops'
+import AboutUs from "./pages/About-Us/AboutUs"
+import Events from "./pages/Events/Events"
+import Workshops from './pages/Workshops/Workshops'
 
 function App() {
   return (

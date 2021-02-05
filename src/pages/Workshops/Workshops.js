@@ -1,5 +1,5 @@
 import styles from "./Workshops.module.css"
-import Navbar from "../Navbar/Navbar"
+import Navbar from "../../components/Navbar/Navbar"
 
 export default function Workshops() {
     return (
